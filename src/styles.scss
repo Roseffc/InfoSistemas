@@ -2,6 +2,9 @@
 $c-primary: #FBBB00;
 $c-segundary: #212529;
 
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -14,8 +17,35 @@ $c-segundary: #212529;
   background-color: $c-primary;
 }
 
+.text-bold {
+  font-weight: bold!important;
+}
 
+.d-flex {
+  display: flex;
+}
 
+.d-justify-content {
+  justify-content: center;
+
+  &--center {
+    justify-content: center;
+  }
+  &--space-around {
+    justify-content: space-around;
+  }
+  &--space-between {
+    justify-content: space-between;
+  }
+}
+
+.d-align-items {
+  align-items: center;
+}
+
+.d-flex-wrap {
+  flex-wrap: wrap;
+}
 
 
 
