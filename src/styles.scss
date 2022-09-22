@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+$c-primary: #FBBB00;
+$c-segundary: #212529;
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.bg-primary{
+  background-color: $c-primary;
+}
+
+
+
+
+
+
