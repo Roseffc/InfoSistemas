@@ -58,7 +58,7 @@ export const carsMock = [
       "modelo": "Fiat Mobi",
       "marca":"Fiat",
       "ano":"2022",
-      "urlImg":"./assets/cars/fiatMob",
+      "urlImg":"./assets/cars/FiatMobi",
       "detalhes":{
           "motorizacao":1.0,
           "cambio":"CVT com modo manual",

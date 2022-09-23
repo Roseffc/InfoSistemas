@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 $c-primary: #FBBB00;
-$c-segundary: #212529;
+$c-secondary: #212529;
+$c-cyan-700: #616161;
+
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
@@ -15,6 +17,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .bg-primary{
   background-color: $c-primary;
+}
+
+.text-color-700 {
+color: $c-cyan-700;
 }
 
 .text-bold {
