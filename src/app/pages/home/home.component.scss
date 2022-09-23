@@ -1,3 +1,19 @@
 .home {
-  gap: 40px;
+
+  &__title {
+    margin: 15px 0;
+  }
 }
+
+.searchForm {
+
+  &__input {
+    margin-right: 30px;
+  }
+}
+
+.car-list {
+  gap: 40px;
+
+}
+

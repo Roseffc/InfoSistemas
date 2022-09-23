@@ -1,3 +1,22 @@
-<section class="home container d-flex d-flex-wrap">
-  <app-car *ngFor="let item of cars" [car]="item"></app-car>
+<section class="home container">
+  <h1 class="home__title">Veículos</h1>
+  <div class="searchForm d-flex d-flex-wrap">
+    <form [formGroup]="formSearch" autocomplete="off">
+      <mat-form-field appearance="outline" class="searchForm__input">
+        <mat-label>Digite sua busca</mat-label>
+        <input matInput placeholder formControlName="query">
+        <mat-icon matSuffix>search</mat-icon>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Filtrar por Marca</mat-label>
+        <mat-select formControlName="brand">
+          <mat-option value="">Todos</mat-option>
+          <mat-option [value]="brand" *ngFor="let brand of listBrand" >{{ brand }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </form>
+  </div>
+  <div class="car-list d-flex d-flex-wrap">
+    <app-car *ngFor="let item of cars" [car]="item"></app-car>
+  </div>
 </section>
