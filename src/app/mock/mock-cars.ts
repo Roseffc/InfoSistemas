@@ -8,12 +8,7 @@ export const carsMock = [
       "marca":"Honda",
       "ano":"2022",
       "urlImg":"./assets/cars/HondaCivic",
-      "detalhes":{
-          "motorizacao":2.0,
-          "cambio":"CVT",
-          "potência":155,
-          "direção":2.0
-      }
+
   },
 
   {
@@ -25,12 +20,7 @@ export const carsMock = [
       "marca":"Mercedes-Bens",
       "ano":"2022",
       "urlImg":"./assets/cars/MercedesGLB",
-      "detalhes":{
-          "motorizacao":1.3,
-          "cambio":"dupla embreagem man.sequ.com modo auto de 7 marchas",
-          "potência":163,
-          "direção":"eletrica"
-      }
+
   },
 
   {
@@ -42,12 +32,7 @@ export const carsMock = [
       "marca":"Honda",
       "ano":"2021",
       "urlImg":"./assets/cars/HondaFit",
-      "detalhes":{
-          "motorizacao":1.5,
-          "cambio":"manual de 5 marchas",
-          "potência":115,
-          "direção":"eletrica"
-      }
+
   },
 
   {
@@ -59,12 +44,7 @@ export const carsMock = [
       "marca":"Fiat",
       "ano":"2022",
       "urlImg":"./assets/cars/FiatMobi",
-      "detalhes":{
-          "motorizacao":1.0,
-          "cambio":"CVT com modo manual",
-          "potência":110,
-          "direção":"eletrica"
-      }
+
   },
 
   {
@@ -76,12 +56,7 @@ export const carsMock = [
       "marca":"Honda",
       "ano":"2022",
       "urlImg":"./assets/cars/HondaHRV",
-      "detalhes":{
-          "motorizacao":1.5,
-          "cambio":"CVT com modo manual",
-          "potência":126,
-          "direção":"eletrica"
-      }
+
   },
 
   {
@@ -93,12 +68,7 @@ export const carsMock = [
       "marca":"Volkswagen",
       "ano":"2020",
       "urlImg":"./assets/cars/VolkswagenJetta",
-      "detalhes":{
-          "motorizacao":2.0,
-          "cambio":"dupla embreagem man.sequ.com modo auto de 6 marchas",
-          "potência":230,
-          "direção":"eletrica"
-      }
+
   },
 
   {
@@ -110,12 +80,7 @@ export const carsMock = [
       "marca":"Honda",
       "ano":"2021",
       "urlImg":"./assets/cars/HondaAccord",
-      "detalhes":{
-          "motorizacao":2.0,
-          "cambio":"CVT",
-          "potência":212,
-          "direção":"eletrica"
-      }
+
   },
 
   {
@@ -127,12 +92,7 @@ export const carsMock = [
       "marca":"Renault",
       "ano":"2022",
       "urlImg":"./assets/cars/RenaultDuster",
-      "detalhes":{
-          "motorizacao":1.6,
-          "cambio":"manual de 5 marchas",
-          "potência":120,
-          "direção":"eletrica"
-      }
+
   },
 
   {
@@ -144,12 +104,7 @@ export const carsMock = [
       "marca":"Honda",
       "ano":"2022",
       "urlImg":"./assets/cars/HondaAccord",
-      "detalhes":{
-          "motorizacao":1.5,
-          "cambio":"CVT",
-          "potência":126,
-          "direção":"eletrica"
-      }
+
   },
 
   {
@@ -161,12 +116,7 @@ export const carsMock = [
       "marca":"Ford",
       "ano":"2020",
       "urlImg":"./assets/cars/FordEcoSport",
-      "detalhes":{
-          "motorizacao":1.5,
-          "cambio":"automática de 6 marchas",
-          "potência":137,
-          "direção":"eletrica"
-      }
+
   },
 
   {
@@ -174,16 +124,11 @@ export const carsMock = [
       "placa": "MNA2050",
       "chassi": "105356008060",
       "renavam": "050928056",
-      "modelo": "Honda City Hatchback",
+      "modelo": "Honda City",
       "marca":"Honda",
       "ano":"2021",
       "urlImg":"./assets/cars/HondaCityHatchback",
-      "detalhes":{
-          "motorizacao":1.5,
-          "cambio":"CVT com modo manual",
-          "potência":126,
-          "direção":"eletrica"
-      }
+
   },
 
   {
@@ -195,12 +140,7 @@ export const carsMock = [
       "marca":"Chevrolet",
       "ano":"2020",
       "urlImg":"./assets/cars/ChevroletMontana",
-      "detalhes":{
-          "motorizacao":1.4,
-          "cambio":"manual de 5 marchas",
-          "potência":99,
-          "direção":"hidráulica"
-      }
+
   },
 
   {
@@ -212,12 +152,7 @@ export const carsMock = [
       "marca":"Honda",
       "ano":"2021",
       "urlImg":"./assets/cars/HondaCRV",
-      "detalhes":{
-          "motorizacao":1.5,
-          "cambio":"CVT com modo manual",
-          "potência":190,
-          "direção":"eletrica"
-      }
+
   },
 
   {
@@ -229,12 +164,7 @@ export const carsMock = [
       "marca":"Hyundai",
       "ano":"2020",
       "urlImg":"./assets/cars/HyundaiHB20",
-      "detalhes":{
-          "motorizacao":1.0,
-          "cambio":"manual de 5 marchas",
-          "potência":80,
-          "direção":"eletrica"
-      }
+
   },
 
   {
@@ -246,12 +176,7 @@ export const carsMock = [
       "marca":"Honda",
       "ano":"2021",
       "urlImg":"./assets/cars/HondaWRV",
-      "detalhes":{
-          "motorizacao":1.5,
-          "cambio":"CVT",
-          "potência":116,
-          "direção":"eletrica"
-      }
+
   }
 
 ];

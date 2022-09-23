@@ -7,12 +7,4 @@ export interface CarsModel {
   marca: string
   ano: number
   urlImg: string
-  detalhes?:CarsDetail
-}
-
-export interface CarsDetail {
-  motorizacao: number
-  cambio: string
-  potência: number
-  direção: number
 }

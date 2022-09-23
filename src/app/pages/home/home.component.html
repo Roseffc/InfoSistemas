@@ -7,7 +7,7 @@
         <input matInput placeholder formControlName="query">
         <mat-icon matSuffix>search</mat-icon>
       </mat-form-field>
-      <mat-form-field appearance="outline">
+      <mat-form-field appearance="outline" class="searchForm__search">
         <mat-label>Filtrar por Marca</mat-label>
         <mat-select formControlName="brand">
           <mat-option value="">Todos</mat-option>
@@ -16,7 +16,7 @@
       </mat-form-field>
     </form>
   </div>
-  <div class="car-list d-flex d-flex-wrap">
+  <div class="car-list d-flex d-flex-wrap d-justify-content--space-around">
     <app-car *ngFor="let item of cars" [car]="item"></app-car>
   </div>
 </section>

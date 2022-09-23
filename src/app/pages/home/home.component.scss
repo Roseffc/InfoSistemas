@@ -10,6 +10,7 @@
   &__input {
     margin-right: 30px;
   }
+
 }
 
 .car-list {
@@ -17,3 +18,14 @@
 
 }
 
+@media (max-width: 600px) {
+  .searchForm {
+    &__input, &__search {
+      margin: 0;
+      width: 100%;
+    }
+  }
+  .home__title {
+    text-align: center;
+  }
+}
