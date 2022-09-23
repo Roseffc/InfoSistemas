@@ -1,3 +1,5 @@
 main {
   height: calc(100vh - 191px);
+  // max-height: calc(100vh - 191px);
+  overflow: auto;
 }

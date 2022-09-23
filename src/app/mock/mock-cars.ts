@@ -7,7 +7,7 @@ export const carsMock = [
       "modelo": "Civic 2.0 LX",
       "marca":"Honda",
       "ano":"2022",
-      "urlImg":"/assets/HondaCivic",
+      "urlImg":"./assets/cars/HondaCivic",
       "detalhes":{
           "motorizacao":2.0,
           "cambio":"CVT",
@@ -24,7 +24,7 @@ export const carsMock = [
       "modelo": "Mercedes-Benz GLB",
       "marca":"Mercedes-Bens",
       "ano":"2022",
-      "urlImg":"/assets/MercedesGLB",
+      "urlImg":"./assets/cars/MercedesGLB",
       "detalhes":{
           "motorizacao":1.3,
           "cambio":"dupla embreagem man.sequ.com modo auto de 7 marchas",
@@ -41,7 +41,7 @@ export const carsMock = [
       "modelo": "Fit 1.5 DX",
       "marca":"Honda",
       "ano":"2021",
-      "urlImg":"/assets/HondaFit",
+      "urlImg":"./assets/cars/HondaFit",
       "detalhes":{
           "motorizacao":1.5,
           "cambio":"manual de 5 marchas",
@@ -58,7 +58,7 @@ export const carsMock = [
       "modelo": "Fiat Mobi",
       "marca":"Fiat",
       "ano":"2022",
-      "urlImg":"/assets/fiatMobi.png",
+      "urlImg":"./assets/cars/fiatMob",
       "detalhes":{
           "motorizacao":1.0,
           "cambio":"CVT com modo manual",
@@ -75,7 +75,7 @@ export const carsMock = [
       "modelo": "Honda HR-V",
       "marca":"Honda",
       "ano":"2022",
-      "urlImg":"/assets/HondaHRV",
+      "urlImg":"./assets/cars/HondaHRV",
       "detalhes":{
           "motorizacao":1.5,
           "cambio":"CVT com modo manual",
@@ -92,7 +92,7 @@ export const carsMock = [
       "modelo": "Volkswagen Jetta",
       "marca":"Volkswagen",
       "ano":"2020",
-      "urlImg":"/assets/VolkswagenJetta",
+      "urlImg":"./assets/cars/VolkswagenJetta",
       "detalhes":{
           "motorizacao":2.0,
           "cambio":"dupla embreagem man.sequ.com modo auto de 6 marchas",
@@ -109,7 +109,7 @@ export const carsMock = [
       "modelo": "Honda Accord",
       "marca":"Honda",
       "ano":"2021",
-      "urlImg":"/assets/HondaAccord",
+      "urlImg":"./assets/cars/HondaAccord",
       "detalhes":{
           "motorizacao":2.0,
           "cambio":"CVT",
@@ -126,7 +126,7 @@ export const carsMock = [
       "modelo": "Renault Duster",
       "marca":"Renault",
       "ano":"2022",
-      "urlImg":"/assets/RenaultDuster",
+      "urlImg":"./assets/cars/RenaultDuster",
       "detalhes":{
           "motorizacao":1.6,
           "cambio":"manual de 5 marchas",
@@ -143,7 +143,7 @@ export const carsMock = [
       "modelo": "Honda City",
       "marca":"Honda",
       "ano":"2022",
-      "urlImg":"/assets/HondaAccord",
+      "urlImg":"./assets/cars/HondaAccord",
       "detalhes":{
           "motorizacao":1.5,
           "cambio":"CVT",
@@ -160,7 +160,7 @@ export const carsMock = [
       "modelo": "Ford Ecosport",
       "marca":"Ford",
       "ano":"2020",
-      "urlImg":"/assets/FordEcoSport",
+      "urlImg":"./assets/cars/FordEcoSport",
       "detalhes":{
           "motorizacao":1.5,
           "cambio":"automática de 6 marchas",
@@ -177,7 +177,7 @@ export const carsMock = [
       "modelo": "Honda City Hatchback",
       "marca":"Honda",
       "ano":"2021",
-      "urlImg":"/assets/HondaCityHatchback",
+      "urlImg":"./assets/cars/HondaCityHatchback",
       "detalhes":{
           "motorizacao":1.5,
           "cambio":"CVT com modo manual",
@@ -194,7 +194,7 @@ export const carsMock = [
       "modelo": "Chevrolet Montana",
       "marca":"Chevrolet",
       "ano":"2020",
-      "urlImg":"/assets/ChevroletMontana",
+      "urlImg":"./assets/cars/ChevroletMontana",
       "detalhes":{
           "motorizacao":1.4,
           "cambio":"manual de 5 marchas",
@@ -211,7 +211,7 @@ export const carsMock = [
       "modelo": "Honda CR-V",
       "marca":"Honda",
       "ano":"2021",
-      "urlImg":"/assets/HondaCRV",
+      "urlImg":"./assets/cars/HondaCRV",
       "detalhes":{
           "motorizacao":1.5,
           "cambio":"CVT com modo manual",
@@ -228,7 +228,7 @@ export const carsMock = [
       "modelo": "Hyundai HB20",
       "marca":"Hyundai",
       "ano":"2020",
-      "urlImg":"/assets/HyundaiHB20",
+      "urlImg":"./assets/cars/HyundaiHB20",
       "detalhes":{
           "motorizacao":1.0,
           "cambio":"manual de 5 marchas",
@@ -245,7 +245,7 @@ export const carsMock = [
       "modelo": "Honda WR-V",
       "marca":"Honda",
       "ano":"2021",
-      "urlImg":"/assets/HondaWRV",
+      "urlImg":"./assets/cars/HondaWRV",
       "detalhes":{
           "motorizacao":1.5,
           "cambio":"CVT",
@@ -254,4 +254,4 @@ export const carsMock = [
       }
   }
 
-]
+];

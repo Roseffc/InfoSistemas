@@ -1,0 +1,31 @@
+.cardCar {
+  width: 176px;
+  border-radius: 12px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: rgba(0,0,0,25%)0 4px 4px 0;
+  padding: 20px;
+
+  &__title2{
+    font-size: 14px!important;
+  }
+
+  &__img {
+    width: 130px;
+    height: 64px;
+  }
+
+  &__description{
+    padding: 0;
+    list-style: none;
+
+    li {
+     font-size: 11px;
+    }
+  }
+ }
+
+ :ng-deep .mat-typography p {
+  margin: 0 0 5px!important;
+  font-size: 7px!important;
+}

@@ -18,7 +18,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .text-bold {
-  font-weight: bold!important;
+  font-weight: 500!important;
 }
 
 .d-flex {
@@ -45,6 +45,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .d-flex-wrap {
   flex-wrap: wrap;
+}
+
+// custom material
+.mat-h3, .mat-subheading-2, .mat-typography .mat-h3, .mat-typography .mat-subheading-2, .mat-typography h3 {
+  margin: 0;
 }
 
 
